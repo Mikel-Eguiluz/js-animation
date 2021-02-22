@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "ltoksana";
+  src: url(../assets/fonts/ltoksana.ttf);
+  /* OKSANA REGULAR IS THE FONT https://www.fontzillion.com/fonts/nymphont/lt-oksana*/
+}
+body {
+  overflow: hidden;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.axis {
+  display: none;
+}
+.textstyle {
+  font: 1.7rem "Fira Sans", serif;
+  font-family: "ltoksana";
+}
+.motive {
+  fill: #340143;
+  stroke: #340143;
+  stroke-linecap: round;
+}
+svg {
+  /* height: 400px; */
+}
+.penta {
+  stroke: black;
+  stroke-width: 2;
+  stroke-dasharray: 220;
+  stroke-dashoffset: 220;
+  animation: pentagram-in 5s linear alternate infinite;
+}
+#hover-target {
+  pointer-events: all;
+}
