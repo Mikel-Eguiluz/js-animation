@@ -144,8 +144,7 @@ document.getElementById("clear-button").addEventListener("click", () => {
   gsap.to(".ball, .floor-ball", {
     duration: 1,
     opacity: 0,
-    onComplete: (target) => {
-      target.remove();
+    onComplete: () => {
       svgArea.innerHTML = "";
     },
   });
