@@ -1,7 +1,6 @@
+/* global gsap */
+
 const dur = 1.5;
-
-//gsap.to(".banner", { duration: dur, y: 200 });
-
 function penta() {
   const pentagram = gsap.timeline();
   pentagram.to(".penta", {
@@ -114,9 +113,9 @@ const master = gsap
   .add(notes(), 0.5)
   .add(gsap.to(".banner", { duration: dur, y: 200 }), 0)
   .pause();
-document.getElementById("hover-target").addEventListener("mouseenter", (e) => {
+document.getElementById("hover-target").addEventListener("mouseenter", () => {
   master.play();
 });
-document.getElementById("hover-target").addEventListener("mouseout", (e) => {
+document.getElementById("hover-target").addEventListener("mouseout", () => {
   master.reverse();
 });

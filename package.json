@@ -1,0 +1,26 @@
+{
+  "name": "js-anim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikel-Eguiluz/js-animation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikel-Eguiluz/js-animation/issues"
+  },
+  "homepage": "https://github.com/Mikel-Eguiluz/js-animation#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  },
+  "dependencies": {
+    "gsap": "./gsap-bonus.tgz"
+  }
+}
