@@ -1,8 +1,10 @@
-import { gsap } from "../node_modules/gsap/all.js";
-import { CustomEase } from "../node_modules/gsap/all.js";
+//import { gsap } from "../node_modules/gsap/all.js";
+//import { CustomEase } from "../node_modules/gsap/all.js";
 //this should be... IDK why it does not work
 // import { gsap } from "gsap";
 // import { CustomEase } from "CustomEase";
+
+/* global gsap CustomEase*/
 gsap.registerPlugin(CustomEase);
 
 const randomBall = gsap.utils.random(
